@@ -15,7 +15,7 @@ export default {
       }
   },
   created() {
-      this.$http.get('http://jsonplaceholder.typicode.com/posts/'+this.id)
+      this.$http.get('https://jsonplaceholder.typicode.com/posts/'+this.id)
       .then(data=>{
           
          this.blogdesc =data.body;

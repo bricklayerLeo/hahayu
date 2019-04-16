@@ -26,7 +26,7 @@ data(){
     }
 },
 created(){
-  this.$http.get("http://jsonplaceholder.typicode.com/posts")
+  this.$http.get("https://jsonplaceholder.typicode.com/posts")
   .then(data=>{
          this.blogs = data.body.slice(0,10);
   })

@@ -61,7 +61,7 @@ export default {
   },
   methods:{
       postinfo(){
-          this.$http.post("http://jsonplaceholder.typicode.com/posts",{
+          this.$http.post("https://jsonplaceholder.typicode.com/posts",{
               title:this.blog.title,
               content:this.blog.content,
             
